@@ -33,7 +33,7 @@ class App extends Component {
   render() {
     return (
       <div>
-         {(this.state.login) ?  
+         {/* {(this.state.login) ?   */}
      <Router>
      <div>
      <Navbar />
@@ -43,7 +43,7 @@ class App extends Component {
        <Route path= '/login' component = {Login} />
      </div>
      </Router> :  
-     <div style = {{margin:'21% 46%'}}>
+     {/* <div style = {{margin:'21% 46%'}}>
      <div class="preloader-background">
 	<div class="preloader-wrapper big active">
 		<div class="spinner-layer spinner-blue-only">
@@ -60,7 +60,7 @@ class App extends Component {
 	</div>
 </div>
 </div>
-}
+} */}
       </div>
     );
   }
