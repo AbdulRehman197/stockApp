@@ -1,0 +1,12 @@
+.transactions {
+    float: left;
+    margin: 3%;
+    width:27%;
+    height:400px;
+    border: 2px solid #243
+}
+.transactionTable {
+    position: relative;
+    width:100%;
+    content: icon
+}
